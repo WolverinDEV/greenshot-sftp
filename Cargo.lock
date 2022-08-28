@@ -3,19 +3,6 @@
 version = 3
 
 [[package]]
-name = "GreenshotSftp"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "clap",
- "clipboard-win",
- "msgbox",
- "ssh2",
- "winres",
- "winrt-notification",
-]
-
-[[package]]
 name = "anyhow"
 version = "1.0.62"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -470,6 +457,19 @@ dependencies = [
  "glib-sys",
  "libc",
  "system-deps",
+]
+
+[[package]]
+name = "greenshot_sftp"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "clap",
+ "clipboard-win",
+ "msgbox",
+ "ssh2",
+ "winres",
+ "winrt-notification",
 ]
 
 [[package]]
