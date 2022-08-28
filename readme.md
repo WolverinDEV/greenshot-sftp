@@ -37,4 +37,9 @@ OPTIONS:
 ```
 Note:
 In order to view the command line output comment out `#![windows_subsystem = "windows"]`.  
-When using with Greenshot it's annoying to have a window popping up.
+When using with Greenshot it's annoying to have a window popping up.  
+
+Example arguments:  
+```
+-s img.did.science:22 -u root -k "C:/Users/WolverinDEV/.ssh/id_rsa" -t "/var/www/img.mcgalaxy" --clipboard-url "https://img.did.science/[file_name]" -i "{0}"
+```
